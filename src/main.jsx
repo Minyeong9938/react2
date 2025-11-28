@@ -12,6 +12,8 @@ import { createRoot } from 'react-dom/client'
 import Effect from './hook/useEffect'
 import Ref from './hook/useRef'
 
+import Context from './hook/useContext/Main'
+
 // const router = createBrowserRouter([
 //   {
 //     path: "/", // 어떠한 url 경로로 접속했을 때
@@ -44,7 +46,9 @@ createRoot(document.getElementById('root')).render(
 
     {/* hook */}
     {/* <Effect /> */}
-    <Ref />
+    {/* <Ref /> */}
+
+    <Context />
 
   </StrictMode>,
 )
