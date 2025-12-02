@@ -14,6 +14,10 @@ import Ref from './hook/useRef'
 
 import Context from './hook/useContext/Main'
 
+import UseMemo from './hook/useMemo'
+
+import UseCallback from './hook/useCallback/useCallback'
+
 // const router = createBrowserRouter([
 //   {
 //     path: "/", // 어떠한 url 경로로 접속했을 때
@@ -48,7 +52,11 @@ createRoot(document.getElementById('root')).render(
     {/* <Effect /> */}
     {/* <Ref /> */}
 
-    <Context />
+    {/* <Context /> */}
+
+    {/* <UseMemo /> */}
+
+    <UseCallback />
 
   </StrictMode>,
 )

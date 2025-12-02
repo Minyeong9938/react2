@@ -13,7 +13,7 @@ function Context() {
     return (
         <ThemeContext.Provider value={{ isDark, setIsDark }}>
             <Page />
-        // </ThemeContext.Provider>
+        </ThemeContext.Provider>
     )
 }
 
