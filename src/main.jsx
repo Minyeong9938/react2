@@ -18,6 +18,10 @@ import UseMemo from './hook/useMemo'
 
 import UseCallback from './hook/useCallback/useCallback'
 
+import ReactMemo from './hook/React.memo/reactMemo'
+
+import UseReducer from './hook/useReducer'
+
 // const router = createBrowserRouter([
 //   {
 //     path: "/", // 어떠한 url 경로로 접속했을 때
@@ -56,7 +60,11 @@ createRoot(document.getElementById('root')).render(
 
     {/* <UseMemo /> */}
 
-    <UseCallback />
+    {/* <UseCallback /> */}
+
+    {/* <ReactMemo /> */}
+
+    <UseReducer />
 
   </StrictMode>,
 )

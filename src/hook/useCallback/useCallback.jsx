@@ -55,4 +55,7 @@ export default UseCallback
 // useCallback는 함수를 메모함
 
 
-// 깃허브
+
+
+// React.memo
+// props
