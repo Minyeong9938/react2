@@ -24,6 +24,8 @@ import UseReducer from './hook/useReducer'
 
 import CustomHook from './hook/customhook/customHook'
 
+import './App.css'
+
 // const router = createBrowserRouter([
 //   {
 //     path: "/", // 어떠한 url 경로로 접속했을 때
