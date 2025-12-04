@@ -22,6 +22,8 @@ import ReactMemo from './hook/React.memo/reactMemo'
 
 import UseReducer from './hook/useReducer'
 
+import CustomHook from './hook/customhook/customHook'
+
 // const router = createBrowserRouter([
 //   {
 //     path: "/", // 어떠한 url 경로로 접속했을 때
@@ -64,7 +66,9 @@ createRoot(document.getElementById('root')).render(
 
     {/* <ReactMemo /> */}
 
-    <UseReducer />
+    {/* <UseReducer /> */}
+
+    <CustomHook />
 
   </StrictMode>,
 )
